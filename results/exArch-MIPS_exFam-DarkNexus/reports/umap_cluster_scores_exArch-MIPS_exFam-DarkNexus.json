@@ -1,0 +1,53 @@
+{
+  "umap_params": {
+    "n_neighbors": "15",
+    "min_dist": "0.1",
+    "metric": "euclidean",
+    "n_components": "2",
+    "random_state": "42"
+  },
+  "scores": {
+    "raw_PCAP": {
+      "silhouette": -0.1009925901889801,
+      "davies_bouldin": 16.560052910346393,
+      "calinski_harabasz": 239.87159729003906
+    },
+    "raw_SAR": {
+      "silhouette": 0.15018227696418762,
+      "davies_bouldin": 9.006227517451356,
+      "calinski_harabasz": 265.53375244140625
+    },
+    "raw_STRACE": {
+      "silhouette": -0.0756942629814148,
+      "davies_bouldin": 6.143417624364298,
+      "calinski_harabasz": 50.15570831298828
+    },
+    "learned_embedding": {
+      "silhouette": 0.2173927277326584,
+      "davies_bouldin": 7.556981585967352,
+      "calinski_harabasz": 1740.5242919921875
+    }
+  },
+  "panels": [
+    {
+      "fname": "umap_raw_pcap",
+      "title": "Raw PCAP features",
+      "score_key": "raw_PCAP"
+    },
+    {
+      "fname": "umap_raw_sar",
+      "title": "Raw SAR features",
+      "score_key": "raw_SAR"
+    },
+    {
+      "fname": "umap_raw_strace",
+      "title": "Raw STRACE features",
+      "score_key": "raw_STRACE"
+    },
+    {
+      "fname": "umap_embeddings",
+      "title": "Fused learned embedding",
+      "score_key": "learned_embedding"
+    }
+  ]
+}

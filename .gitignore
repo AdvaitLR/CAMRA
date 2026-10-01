@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+.env
+
+# Data (download from the Canadian Institute for Cybersecurity; do not commit)
+data/
+*.parquet
+
+# Large run outputs (per-seed model weights and predictions)
+state_*.pt
+preds_*.npz
+*.pt
+
+# Generated figures (recreate with notebooks/03_figures.ipynb)
+figures/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

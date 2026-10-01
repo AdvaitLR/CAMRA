@@ -1,0 +1,32 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the paper below."
+title: "CAMRA: Cross-Architecture Multimodal Reinforcement Learning with Federated Adaptation for IoT Malware Detection and Classification"
+repository-code: "https://github.com/AdvaitLR/CAMRA"
+license: MIT
+authors:
+  - family-names: Gourkhede
+    given-names: Advait
+  - family-names: Cajla
+    given-names: Ashmit
+  - family-names: Chhabra
+    given-names: Gurpal Singh
+  - family-names: Verma
+    given-names: Sandeep
+  - family-names: Mahapatra
+    given-names: Byomakesh
+preferred-citation:
+  type: article
+  title: "CAMRA: Cross-Architecture Multimodal Reinforcement Learning with Federated Adaptation for IoT Malware Detection and Classification"
+  authors:
+    - family-names: Gourkhede
+      given-names: Advait
+    - family-names: Cajla
+      given-names: Ashmit
+    - family-names: Chhabra
+      given-names: Gurpal Singh
+    - family-names: Verma
+      given-names: Sandeep
+    - family-names: Mahapatra
+      given-names: Byomakesh
+  year: 2026
+  notes: "Under review."

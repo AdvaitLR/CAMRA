@@ -1,0 +1,87 @@
+{
+  "models": {
+    "CAMRA": {
+      "model": "CAMRA",
+      "params": 447206,
+      "flops": 516032.0,
+      "size_mb": 1.7685022354125977,
+      "latency_ms_per_sample": 2.3098374999790394
+    },
+    "MLP": {
+      "model": "MLP",
+      "params": 81222,
+      "flops": 81536.0,
+      "size_mb": 0.32063770294189453,
+      "latency_ms_per_sample": 0.4092575004506216
+    },
+    "CNN": {
+      "model": "CNN",
+      "params": 40006,
+      "flops": 1314208.0,
+      "size_mb": 0.16502761840820312,
+      "latency_ms_per_sample": 0.6218724997779645
+    },
+    "Random Forest": {
+      "model": "Random Forest",
+      "params": 13430,
+      "flops": null,
+      "size_mb": 1.3647785186767578,
+      "latency_ms_per_sample": 53.02223300031983,
+      "peak_predict_mem_mb": 0.2218494415283203,
+      "n_trees": 100,
+      "n_nodes": 13430,
+      "mean_depth": 17.14
+    },
+    "XGBoost": {
+      "model": "XGBoost",
+      "params": 6620,
+      "flops": null,
+      "size_mb": 0.5324487686157227,
+      "latency_ms_per_sample": 1.1509020000630699,
+      "peak_predict_mem_mb": 0.1859731674194336,
+      "n_trees": 500,
+      "n_nodes": 6620,
+      "mean_depth": 4.0
+    }
+  },
+  "training_time_seconds": {
+    "DRL": {
+      "mean": 120.31446330547332,
+      "std": 1.8557268138340883
+    },
+    "FL": {
+      "mean": 332.4796083927155,
+      "std": 2.5222253220467343
+    },
+    "Ablation+baselines (all configs)": {
+      "mean": 544.4812607526779,
+      "std": 4.9392122365613575
+    },
+    "Data efficiency (4 fractions)": {
+      "mean": 281.85895018577577,
+      "std": 2.1344598353324846
+    },
+    "Cross-architecture (all pairs)": {
+      "mean": 113.28959901332856,
+      "std": 1.1281255115360531
+    }
+  },
+  "communication": {
+    "full_model_mb": 1.7685022354125977,
+    "transmitted_payload_mb": 1.6915512084960938,
+    "fedbn_excludes_batchnorm": true,
+    "n_clients": 3,
+    "rounds": 50,
+    "upload_per_round_mb": 5.074653625488281,
+    "download_per_round_mb": 5.074653625488281,
+    "round_trip_per_round_mb": 10.149307250976562,
+    "total_transfer_mb": 507.4653625488281,
+    "per_client_total_mb": 169.15512084960938,
+    "excluded_from_estimate": [
+      "protocol/TLS framing",
+      "retransmission",
+      "secure aggregation",
+      "straggler re-broadcast"
+    ]
+  }
+}

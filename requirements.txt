@@ -1,0 +1,16 @@
+# Experiments were run on Kaggle (Python 3, 2x NVIDIA T4). Install a CUDA build of PyTorch
+# that matches your GPU from https://pytorch.org if the default wheel does not fit.
+numpy
+pandas
+pyarrow
+scipy
+scikit-learn
+xgboost
+torch
+umap-learn
+thop
+matplotlib
+seaborn
+SciencePlots
+tqdm
+jupyter

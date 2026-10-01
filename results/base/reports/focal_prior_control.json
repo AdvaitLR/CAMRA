@@ -1,0 +1,292 @@
+{
+  "row": "Focal Loss + Prior",
+  "seeds": [
+    42,
+    16,
+    29,
+    34,
+    56,
+    67,
+    71,
+    86,
+    99,
+    46
+  ],
+  "definition": "focal loss (gamma=FOCAL_LOSS_GAMMA) with the frequency prior as a fixed per-class alpha; DRL's loss with the RL multiplier fixed at 1",
+  "per_seed": [
+    {
+      "macro_f1": 0.7588260613002882,
+      "macro_f1_all": 0.79902171775024,
+      "weighted_f1": 0.9867150026385232,
+      "accuracy": 0.983553597650514,
+      "per_class_f1": {
+        "Benign": 1.0,
+        "DarkNexus": 0.845360824742268,
+        "Gafgyt": 0.7407407407407407,
+        "Generic": 0.22727272727272727,
+        "Mirai": 0.9807560137457044,
+        "Other": 1.0
+      },
+      "per_class_support": {
+        "Benign": 1865,
+        "DarkNexus": 44,
+        "Gafgyt": 12,
+        "Generic": 9,
+        "Mirai": 1474,
+        "Other": 1
+      }
+    },
+    {
+      "macro_f1": 0.7546105303961286,
+      "macro_f1_all": 0.7399532197745516,
+      "weighted_f1": 0.9863981647136992,
+      "accuracy": 0.9832599118942731,
+      "per_class_f1": {
+        "Benign": 1.0,
+        "DarkNexus": 0.845360824742268,
+        "Gafgyt": 0.72,
+        "Generic": 0.22727272727272727,
+        "Mirai": 0.9804190999656476,
+        "Other": 0.6666666666666666
+      },
+      "per_class_support": {
+        "Benign": 1865,
+        "DarkNexus": 44,
+        "Gafgyt": 12,
+        "Generic": 9,
+        "Mirai": 1474,
+        "Other": 1
+      }
+    },
+    {
+      "macro_f1": 0.7461783920546807,
+      "macro_f1_all": 0.7884819933789006,
+      "weighted_f1": 0.9864882759428379,
+      "accuracy": 0.983553597650514,
+      "per_class_f1": {
+        "Benign": 1.0,
+        "DarkNexus": 0.845360824742268,
+        "Gafgyt": 0.6666666666666666,
+        "Generic": 0.23809523809523808,
+        "Mirai": 0.9807692307692307,
+        "Other": 1.0
+      },
+      "per_class_support": {
+        "Benign": 1865,
+        "DarkNexus": 44,
+        "Gafgyt": 12,
+        "Generic": 9,
+        "Mirai": 1474,
+        "Other": 1
+      }
+    },
+    {
+      "macro_f1": 0.7595771286750669,
+      "macro_f1_all": 0.7996476072292223,
+      "weighted_f1": 0.9868154439011425,
+      "accuracy": 0.983553597650514,
+      "per_class_f1": {
+        "Benign": 1.0,
+        "DarkNexus": 0.8541666666666666,
+        "Gafgyt": 0.7407407407407407,
+        "Generic": 0.2222222222222222,
+        "Mirai": 0.9807560137457044,
+        "Other": 1.0
+      },
+      "per_class_support": {
+        "Benign": 1865,
+        "DarkNexus": 44,
+        "Gafgyt": 12,
+        "Generic": 9,
+        "Mirai": 1474,
+        "Other": 1
+      }
+    },
+    {
+      "macro_f1": 0.7640659993601171,
+      "macro_f1_all": 0.747832777244542,
+      "weighted_f1": 0.9865870215701777,
+      "accuracy": 0.9832599118942731,
+      "per_class_f1": {
+        "Benign": 1.0,
+        "DarkNexus": 0.8484848484848485,
+        "Gafgyt": 0.7692307692307693,
+        "Generic": 0.2222222222222222,
+        "Mirai": 0.9803921568627451,
+        "Other": 0.6666666666666666
+      },
+      "per_class_support": {
+        "Benign": 1865,
+        "DarkNexus": 44,
+        "Gafgyt": 12,
+        "Generic": 9,
+        "Mirai": 1474,
+        "Other": 1
+      }
+    },
+    {
+      "macro_f1": 0.7525641715224862,
+      "macro_f1_all": 0.7938034762687386,
+      "weighted_f1": 0.9863182683905182,
+      "accuracy": 0.9829662261380323,
+      "per_class_f1": {
+        "Benign": 1.0,
+        "DarkNexus": 0.845360824742268,
+        "Gafgyt": 0.72,
+        "Generic": 0.21739130434782608,
+        "Mirai": 0.9800687285223367,
+        "Other": 1.0
+      },
+      "per_class_support": {
+        "Benign": 1865,
+        "DarkNexus": 44,
+        "Gafgyt": 12,
+        "Generic": 9,
+        "Mirai": 1474,
+        "Other": 1
+      }
+    },
+    {
+      "macro_f1": 0.7430870194243419,
+      "macro_f1_all": 0.7303502939647294,
+      "weighted_f1": 0.9862191360862427,
+      "accuracy": 0.9832599118942731,
+      "per_class_f1": {
+        "Benign": 1.0,
+        "DarkNexus": 0.845360824742268,
+        "Gafgyt": 0.6896551724137931,
+        "Generic": 0.2,
+        "Mirai": 0.9804190999656476,
+        "Other": 0.6666666666666666
+      },
+      "per_class_support": {
+        "Benign": 1865,
+        "DarkNexus": 44,
+        "Gafgyt": 12,
+        "Generic": 9,
+        "Mirai": 1474,
+        "Other": 1
+      }
+    },
+    {
+      "macro_f1": 0.7650317976009984,
+      "macro_f1_all": 0.8041931646674986,
+      "weighted_f1": 0.9880804029011029,
+      "accuracy": 0.9853157121879589,
+      "per_class_f1": {
+        "Benign": 1.0,
+        "DarkNexus": 0.8842105263157894,
+        "Gafgyt": 0.72,
+        "Generic": 0.23809523809523808,
+        "Mirai": 0.9828532235939643,
+        "Other": 1.0
+      },
+      "per_class_support": {
+        "Benign": 1865,
+        "DarkNexus": 44,
+        "Gafgyt": 12,
+        "Generic": 9,
+        "Mirai": 1474,
+        "Other": 1
+      }
+    },
+    {
+      "macro_f1": 0.7811689718122466,
+      "macro_f1_all": 0.8176408098435388,
+      "weighted_f1": 0.9886592498722921,
+      "accuracy": 0.9859030837004406,
+      "per_class_f1": {
+        "Benign": 1.0,
+        "DarkNexus": 0.8842105263157894,
+        "Gafgyt": 0.8,
+        "Generic": 0.23809523809523808,
+        "Mirai": 0.9835390946502057,
+        "Other": 1.0
+      },
+      "per_class_support": {
+        "Benign": 1865,
+        "DarkNexus": 44,
+        "Gafgyt": 12,
+        "Generic": 9,
+        "Mirai": 1474,
+        "Other": 1
+      }
+    },
+    {
+      "macro_f1": 0.7476458728295867,
+      "macro_f1_all": 0.7897048940246556,
+      "weighted_f1": 0.9868467198705312,
+      "accuracy": 0.9838472834067548,
+      "per_class_f1": {
+        "Benign": 1.0,
+        "DarkNexus": 0.8631578947368421,
+        "Gafgyt": 0.6666666666666666,
+        "Generic": 0.22727272727272727,
+        "Mirai": 0.9811320754716981,
+        "Other": 1.0
+      },
+      "per_class_support": {
+        "Benign": 1865,
+        "DarkNexus": 44,
+        "Gafgyt": 12,
+        "Generic": 9,
+        "Mirai": 1474,
+        "Other": 1
+      }
+    }
+  ],
+  "training_time_seconds": [
+    160.44161319732666,
+    154.46196365356445,
+    154.50819945335388,
+    154.74091029167175,
+    154.51952266693115,
+    153.17897248268127,
+    152.50633192062378,
+    152.06832671165466,
+    153.6117823123932,
+    154.9727234840393
+  ],
+  "contrasts": [
+    {
+      "isolates": "controller (RL multiplier)",
+      "a": "Deep Reinforcement Learning",
+      "b": "Focal Loss + Prior",
+      "mean_a": 0.7523338426316597,
+      "mean_b": 0.7572755944975941,
+      "mean_diff": -0.0049417518659343514,
+      "ci_low": -0.014438207334806621,
+      "ci_high": 0.005142823283115478,
+      "p_raw": 0.4921875,
+      "n_seeds_a_better": 4,
+      "p_holm": 0.4921875
+    },
+    {
+      "isolates": "frequency prior",
+      "a": "Focal Loss + Prior",
+      "b": "Focal Loss",
+      "mean_a": 0.7572755944975941,
+      "mean_b": 0.7089213048852001,
+      "mean_diff": 0.04835428961239404,
+      "ci_low": 0.034620092289549806,
+      "ci_high": 0.06233266102882922,
+      "p_raw": 0.001953125,
+      "n_seeds_a_better": 10,
+      "p_holm": 0.005859375
+    },
+    {
+      "isolates": "focal vs CE, same prior",
+      "a": "Focal Loss + Prior",
+      "b": "Fixed Weighting",
+      "mean_a": 0.7572755944975941,
+      "mean_b": 0.7512401161996796,
+      "mean_diff": 0.0060354782979144764,
+      "ci_low": -0.0029089853521623477,
+      "ci_high": 0.014414084122295872,
+      "p_raw": 0.193359375,
+      "n_seeds_a_better": 7,
+      "p_holm": 0.38671875
+    }
+  ],
+  "multiplicity_correction": "Holm-Bonferroni within these three contrasts; separate from the six-contrast primary family"
+}
